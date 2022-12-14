@@ -43,14 +43,15 @@
                 </div>
             </div>
         </nav>
-    <div class="container" >
+    <div class="container">
         <div class=" my-4 card mb-4 rounded-7 shadow-sm border-primary">
         <div style="background-color: #db1c07;"class="card-header py-3  border-primary">
         <h1 style="color:white;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"class="text-center my-4"><b>WEATHER FOR <span id="cname"></span></b></h1> </div></div>
         <main>
             <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
                 <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary" data-tilt>
                         <div class="card-header py-3 text-bg-warning border-primary">
                             <h4 class="my-0 fw-normal"><b>Temperature Info</b></h4>
                         </div>
@@ -66,7 +67,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary" data-tilt>
                         <div class="card-header py-3 text-bg-warning border-primary">
                             <h4 class="my-0 fw-normal"><b>Humidity Info</b></h4>
                         </div>
@@ -83,7 +84,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary" data-tilt>
                         <div class="card-header py-3 text-bg-warning border-primary">
                             <h4 class="my-0 fw-normal"><b>Wind Info</b></h4>
                         </div>
@@ -173,6 +174,7 @@
         </main>
     </div>
     <script src="script.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
@@ -184,6 +186,7 @@
 <div class="container">
 
     <h1 style = "color:white;font-family:cursive" class="text-center card mb-4 rounded-3 shadow-sm border-primary text-bg-warning"> CREATED BY SHUBHAM</h1></div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="tilt.jquery.js"></script>
 </body>
 </html>
